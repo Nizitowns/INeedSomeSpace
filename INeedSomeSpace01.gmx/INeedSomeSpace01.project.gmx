@@ -200,7 +200,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\nizit\AppData\Local\GameMaker-Studio\tutorials\Physics_Part1_Fixtures\</TutorialName>
     <TutorialPage>4</TutorialPage>
   </TutorialState>
