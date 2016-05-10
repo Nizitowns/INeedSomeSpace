@@ -25,18 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>boost_key   =   keyboard_check(ord('W'));
-if(gamepad_is_connected(0)){
-    boost_joy = gamepad_button_check(0, gp_face1);
-}else{
-    boost_joy = noone;
-}
-
-if(obj_control.round_started &amp;&amp; (boost_key || boost_joy)){
-    instance_create(x,y,obj_Player_Willy);
-    instance_destroy();
-}
-
+            <string>/// Create Playable Instance
+scr_activate_controls(ord("W"), 0, obj_Player_Willy);
 </string>
           </argument>
         </arguments>

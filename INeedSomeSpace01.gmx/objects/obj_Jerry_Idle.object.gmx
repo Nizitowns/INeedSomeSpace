@@ -25,17 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>boost   =   keyboard_check(ord('H'));
-
-if(gamepad_is_connected(2)){
-    boost = gamepad_button_check(2, gp_face1);
-}
-
-if(boost &amp;&amp; obj_control.round_started){
-    instance_create(x,y,obj_Player_3_Jerry);
-    instance_destroy();
-}
-
+            <string>/// Create Playable Instance
+scr_activate_controls(ord("H"), 2, obj_Player_3_Jerry);
 </string>
           </argument>
         </arguments>

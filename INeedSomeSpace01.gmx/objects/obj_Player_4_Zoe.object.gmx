@@ -50,37 +50,7 @@
             <kind>1</kind>
             <string>phy_wrap();
 
-right   =   keyboard_check(vk_numpad6);
-left    =   keyboard_check(vk_numpad4);
-boost   =   keyboard_check(vk_numpad5);
-
-if(gamepad_is_connected(3)){
-    gamepad_set_axis_deadzone(3, 0.5);
-    right = gamepad_axis_value(3, gp_axislh) &gt; 0;
-    left  = gamepad_axis_value(3, gp_axislh) &lt; 0;
-    boost = gamepad_button_check(3, gp_face1);
-}
-if(!obj_control.round_end){
-    if(right){
-        phy_angular_velocity=0;
-        phy_rotation+=10;
-    }
-    
-    if(left){
-        phy_angular_velocity=0;
-        phy_rotation-=10;
-    }
-    
-    if(boost){
-        physics_apply_local_force(0, 0, 0, -100);
-        instance_create(phy_position_x,phy_position_y,obj_thrusters_emitter);
-        audio_play_sound(snd_jetpack_2,1,false);
-    }else{
-        audio_stop_sound(snd_jetpack_2);
-    }
-}
-
-
+scr_input_master(vk_numpad6, vk_numpad4, vk_numpad5, 3);
 
 
 

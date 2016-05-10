@@ -25,17 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>boost   =   keyboard_check(vk_numpad5);
-
-if(gamepad_is_connected(3)){
-    boost = gamepad_button_check(3, gp_face1);
-}
-
-if(boost &amp;&amp; obj_control.round_started){
-    instance_create(x,y,obj_Player_4_Zoe);
-    instance_destroy();
-}
-
+            <string>/// Create Playable Instance
+scr_activate_controls(vk_numpad5, 3, obj_Player_4_Zoe);
 </string>
           </argument>
         </arguments>
