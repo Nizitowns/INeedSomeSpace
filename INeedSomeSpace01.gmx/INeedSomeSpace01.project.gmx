@@ -95,6 +95,7 @@
     <sprite>sprites\spr_A_button</sprite>
     <sprite>sprites\spr_B_button</sprite>
     <sprite>sprites\spr_GM48</sprite>
+    <sprite>sprites\spr_test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
