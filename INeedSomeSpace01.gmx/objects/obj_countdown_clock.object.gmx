@@ -28,7 +28,6 @@
             <string>/// Set the starting time
 seconds     = 0;            // set the starting seconds
 minutes     = 2;            // set the starting minutes
-//hours       = 0;            // set the starting hours
 alarm[0]    = room_speed * 4;   // set alarm for one second (room_speed)
 
 </string>
@@ -62,7 +61,6 @@ if(seconds &lt; 0){        // check if seconds is less than 0
 }
 if(minutes &lt; 0){        // check if minutes are less than 0
     minutes = 59;       // reset minutes
-    //hours -= 1;         // take one off hours
 }
 
 if(minutes &lt;= 0){
@@ -73,7 +71,7 @@ if(minutes &lt;= 0){
     }
 }
 
-if(seconds == 0 &amp;&amp; minutes == 0 /*&amp;&amp; hours == 0*/){ // check if countdown has reached 00:00:00
+if(seconds == 0 &amp;&amp; minutes == 0){ // check if countdown has reached 00:00
     // Do Something
     // Check for winner
     // Player 1 wins
@@ -127,8 +125,7 @@ if(seconds == 0 &amp;&amp; minutes == 0 /*&amp;&amp; hours == 0*/){ // check if 
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//show_hours = string_repeat("0", 2 - string_length(string(hours))) + string(minutes);      // If single digit add a leading 0
-show_minutes = string_repeat("0", 2 - string_length(string(minutes))) + string(minutes);    // If single digit add a leading 0
+            <string>show_minutes = string_repeat("0", 2 - string_length(string(minutes))) + string(minutes);    // If single digit add a leading 0
 show_seconds = string_repeat("0", 2 - string_length(string(seconds))) + string(seconds);    // If single digit add a leading 0
 </string>
           </argument>

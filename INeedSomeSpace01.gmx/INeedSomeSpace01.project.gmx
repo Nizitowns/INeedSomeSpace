@@ -112,6 +112,8 @@
     <script>scripts\scr_endpoint_init.gml</script>
     <script>scripts\scr_endpoint_reaction.gml</script>
     <script>scripts\scr_endpoint_anim.gml</script>
+    <script>scripts\scr_blackhole_pull.gml</script>
+    <script>scripts\scr_blackhole_consumes.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_visitor_50</font>
