@@ -25,9 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!instance_exists(obj_Player_Willy) &amp;&amp; !instance_exists(obj_Willy_Idle)){
-    instance_create(x,y,obj_Player_Willy);
-}
+            <string>/// Spawn the player
+scr_player_spawner(obj_Player_Willy, obj_Willy_Idle);
 </string>
           </argument>
         </arguments>
