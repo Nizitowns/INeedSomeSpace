@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_index = 0;
-image_speed = 0;
+            <string>scr_endpoint_init();
 </string>
           </argument>
         </arguments>
@@ -49,16 +48,7 @@ image_speed = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(distance_to_object(obj_Player_2_Doug) &lt; 50){
-    if(image_index &lt; 4){
-        image_index++;
-    }
-} else if((image_index &lt; 6) &amp;&amp; !(image_index == 0)){
-    image_speed = 0.5;
-}else {
-    image_index = 0;
-    image_speed = 0;
-}
+            <string>scr_endpoint_reaction(obj_Player_2_Doug);
 </string>
           </argument>
         </arguments>
@@ -81,12 +71,7 @@ image_speed = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(image_index &lt; 6){
-    image_speed = 0.5;
-}else {
-    image_index = 0;
-    image_speed = 0;
-}
+            <string>scr_endpoint_anim();
 </string>
           </argument>
         </arguments>

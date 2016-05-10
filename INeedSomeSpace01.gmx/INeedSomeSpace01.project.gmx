@@ -109,6 +109,9 @@
     <script>scripts\scr_activate_controls.gml</script>
     <script>scripts\scr_asteroids_init.gml</script>
     <script>scripts\scr_player_spawner.gml</script>
+    <script>scripts\scr_endpoint_init.gml</script>
+    <script>scripts\scr_endpoint_reaction.gml</script>
+    <script>scripts\scr_endpoint_anim.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_visitor_50</font>
