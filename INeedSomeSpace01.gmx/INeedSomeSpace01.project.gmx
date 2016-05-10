@@ -110,63 +110,81 @@
     <font>fonts\fnt_visitor_50</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_Willy_Idle</object>
-    <object>objects\obj_Player_Willy</object>
-    <object>objects\obj_Doug_Idle</object>
-    <object>objects\obj_Player_2_Doug</object>
-    <object>objects\obj_Jerry_Idle</object>
-    <object>objects\obj_Player_3_Jerry</object>
-    <object>objects\obj_Zoe_Idle</object>
-    <object>objects\obj_Player_4_Zoe</object>
-    <object>objects\obj_Asteroid_Parent</object>
-    <object>objects\obj_Asteroid_1</object>
-    <object>objects\obj_Asteroid_2</object>
-    <object>objects\obj_Asteroid_3</object>
-    <object>objects\obj_Asteroid_4</object>
-    <object>objects\obj_spawner_1</object>
-    <object>objects\obj_spawner_2</object>
-    <object>objects\obj_spawner_3</object>
-    <object>objects\obj_spawner_4</object>
-    <object>objects\obj_end_1</object>
-    <object>objects\obj_end_2</object>
-    <object>objects\obj_end_3</object>
-    <object>objects\obj_end_4</object>
-    <object>objects\obj_control</object>
-    <object>objects\obj_black_hole</object>
+    <objects name="Characters">
+      <object>objects\obj_Willy_Idle</object>
+      <object>objects\obj_Player_Willy</object>
+      <object>objects\obj_Doug_Idle</object>
+      <object>objects\obj_Player_2_Doug</object>
+      <object>objects\obj_Jerry_Idle</object>
+      <object>objects\obj_Player_3_Jerry</object>
+      <object>objects\obj_Zoe_Idle</object>
+      <object>objects\obj_Player_4_Zoe</object>
+    </objects>
+    <objects name="Asteroids">
+      <object>objects\obj_Asteroid_Parent</object>
+      <object>objects\obj_Asteroid_2</object>
+      <object>objects\obj_Asteroid_3</object>
+      <object>objects\obj_Asteroid_4</object>
+      <object>objects\obj_Asteroid_1</object>
+    </objects>
+    <objects name="Spawners">
+      <object>objects\obj_spawner_1</object>
+      <object>objects\obj_spawner_2</object>
+      <object>objects\obj_spawner_3</object>
+      <object>objects\obj_spawner_4</object>
+    </objects>
+    <objects name="EndPoints">
+      <object>objects\obj_end_1</object>
+      <object>objects\obj_end_2</object>
+      <object>objects\obj_end_3</object>
+      <object>objects\obj_end_4</object>
+    </objects>
+    <objects name="Misc">
+      <object>objects\obj_black_hole</object>
+      <object>objects\obj_Willy_score</object>
+      <object>objects\obj_Doug_score</object>
+      <object>objects\obj_Jerry_score</object>
+      <object>objects\obj_Zoe_score</object>
+      <object>objects\obj_collectable</object>
+      <object>objects\obj_countdown_clock</object>
+    </objects>
+    <objects name="StartScreen">
+      <object>objects\obj_gen_instructions</object>
+      <object>objects\obj_Zoe_start_screen</object>
+      <object>objects\obj_Jerry_end_anim</object>
+      <object>objects\obj_Zoe_start_rot</object>
+      <object>objects\obj_Jerry_start_screen</object>
+      <object>objects\obj_flag_start</object>
+      <object>objects\obj_footer_text</object>
+      <object>objects\obj_logo</object>
+      <object>objects\obj_Button_like_Page</object>
+      <object>objects\obj_GM48</object>
+      <object>objects\obj_start_screen_control</object>
+      <object>objects\obj_quit</object>
+    </objects>
+    <objects name="CharControlScreen">
+      <object>objects\obj_arrows</object>
+      <object>objects\obj_doug</object>
+      <object>objects\obj_char_control</object>
+      <object>objects\obj_shadow</object>
+      <object>objects\obj_rect</object>
+      <object>objects\obj_stick</object>
+      <object>objects\obj_willy</object>
+      <object>objects\obj_zoe</object>
+      <object>objects\obj_jerry</object>
+    </objects>
+    <objects name="WinScreen">
+      <object>objects\obj_return_to_start</object>
+    </objects>
+    <objects name="Controllers">
+      <object>objects\obj_music_control</object>
+      <object>objects\obj_char_controls</object>
+      <object>objects\obj_control</object>
+    </objects>
     <object>objects\obj_DynamicParent</object>
-    <object>objects\obj_collectable</object>
-    <object>objects\obj_countdown_clock</object>
-    <object>objects\obj_Willy_score</object>
-    <object>objects\obj_Doug_score</object>
-    <object>objects\obj_Jerry_score</object>
-    <object>objects\obj_Zoe_score</object>
-    <object>objects\obj_start_screen_control</object>
     <object>objects\obj_thrusters_emitter</object>
-    <object>objects\obj_Zoe_start_screen</object>
-    <object>objects\obj_Zoe_start_rot</object>
-    <object>objects\obj_footer_text</object>
-    <object>objects\obj_logo</object>
-    <object>objects\obj_gen_instructions</object>
-    <object>objects\obj_Jerry_start_screen</object>
-    <object>objects\obj_Jerry_end_anim</object>
-    <object>objects\obj_flag_start</object>
-    <object>objects\obj_Button_like_Page</object>
-    <object>objects\obj_char_control</object>
-    <object>objects\obj_shadow</object>
-    <object>objects\obj_arrows</object>
-    <object>objects\obj_rect</object>
-    <object>objects\obj_zoe</object>
-    <object>objects\obj_stick</object>
-    <object>objects\obj_doug</object>
-    <object>objects\obj_willy</object>
-    <object>objects\obj_jerry</object>
-    <object>objects\obj_char_controls</object>
-    <object>objects\obj_music_control</object>
     <object>objects\obj_tutorial</object>
     <object>objects\obj_screen_shake</object>
-    <object>objects\obj_quit</object>
-    <object>objects\obj_return_to_start</object>
-    <object>objects\obj_GM48</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
