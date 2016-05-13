@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1707</w>
-    <h>870</h>
+    <w>1699</w>
+    <h>867</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-300</xoffset>
-    <yoffset>-223</yoffset>
+    <xoffset>-101</xoffset>
+    <yoffset>-36</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -57,8 +57,8 @@
     <instance objName="obj_Doug_Idle" x="640" y="200" name="inst_3B6C1DC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Jerry_Idle" x="640" y="328" name="inst_0E5D676A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Zoe_Idle" x="312" y="192" name="inst_8AAE6A92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_goal" x="144" y="272" name="inst_A64E10C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_goal" x="816" y="272" name="inst_CB3E4F1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_goal" x="128" y="144" name="inst_A64E10C7" locked="0" code="" scaleX="0.5" scaleY="1.00392162799835" colour="4294967295" rotation="0"/>
+    <instance objName="obj_goal" x="816" y="144" name="inst_CB3E4F1E" locked="0" code="" scaleX="0.5" scaleY="1.00392162799835" colour="4294967295" rotation="0"/>
     <instance objName="obj_ball" x="480" y="256" name="inst_287CA5F2" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_electric_fence" x="112" y="-88" name="inst_8594F01A" locked="0" code="" scaleX="96" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_electric_fence" x="80" y="688" name="inst_6A72A7EB" locked="0" code="" scaleX="96" scaleY="1" colour="4294967295" rotation="0"/>
