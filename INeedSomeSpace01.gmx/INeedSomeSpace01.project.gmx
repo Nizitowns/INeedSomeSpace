@@ -95,7 +95,9 @@
     <sprite>sprites\spr_A_button</sprite>
     <sprite>sprites\spr_B_button</sprite>
     <sprite>sprites\spr_GM48</sprite>
-    <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_goal</sprite>
+    <sprite>sprites\spr_ball</sprite>
+    <sprite>sprites\spr_electric_fence</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -194,11 +196,17 @@
     <object>objects\obj_thrusters_emitter</object>
     <object>objects\obj_tutorial</object>
     <object>objects\obj_screen_shake</object>
+    <object>objects\obj_goal</object>
+    <object>objects\obj_ball</object>
+    <object>objects\obj_electric_fence</object>
+    <object>objects\obj_cheat</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\rm_char_control</room>
     <room>rooms\rm_tutorial</room>
+    <room>rooms\rm_FloatBall</room>
+    <room>rooms\rm_FloatBall_fence</room>
     <room>rooms\rm_BattleField</room>
   </rooms>
   <help>

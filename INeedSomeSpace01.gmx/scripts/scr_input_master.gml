@@ -5,7 +5,7 @@ right = argument0;
 left = argument1;
 thrust = argument2;
 active_joy = argument3;
-rot_spd = 10;
+rot_spd = 8;
 
 // Set keyboard controls
 right_key   =   keyboard_check(right);
@@ -42,7 +42,7 @@ if(!obj_control.round_end){
     }
     
     if(thrust_key || thrust_joy){
-        physics_apply_local_force(0, 0, 0, -100);
+        physics_apply_local_force(0, 0, 0, -50);
         instance_create(phy_position_x,phy_position_y,obj_thrusters_emitter);
         audio_play_sound(snd_jetpack_1,1,false);
     }else{
