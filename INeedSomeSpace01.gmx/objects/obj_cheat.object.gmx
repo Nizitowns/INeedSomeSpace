@@ -28,6 +28,10 @@
             <string>if(keyboard_check_released(vk_tab)){
     room_goto_next();
 }
+
+if(keyboard_check_released(vk_shift)){
+    room_goto_previous();
+}
 </string>
           </argument>
         </arguments>
