@@ -98,6 +98,7 @@
     <sprite>sprites\spr_goal</sprite>
     <sprite>sprites\spr_ball</sprite>
     <sprite>sprites\spr_electric_fence</sprite>
+    <sprite>sprites\spr_color_tile</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -208,6 +209,7 @@
     <room>rooms\rm_FloatBall</room>
     <room>rooms\rm_FloatBall_fence</room>
     <room>rooms\rm_BattleField</room>
+    <room>rooms\rm_Color_Symphony</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
