@@ -90,15 +90,24 @@
     <sprites name="WinScreen">
       <sprite>sprites\spr_win_popup</sprite>
     </sprites>
+    <sprites name="Placeholders">
+      <sprite>sprites\spr_laser_purple</sprite>
+      <sprite>sprites\spr_laser_yellow</sprite>
+      <sprite>sprites\spr_laser_orange</sprite>
+      <sprite>sprites\spr_laser_wheel</sprite>
+      <sprite>sprites\spr_laser_blue</sprite>
+      <sprite>sprites\spr_laser_fence</sprite>
+      <sprite>sprites\spr_blue_circle</sprite>
+      <sprite>sprites\spr_red_circle</sprite>
+      <sprite>sprites\spr_laser</sprite>
+    </sprites>
     <sprite>sprites\spr_tutorial</sprite>
     <sprite>sprites\spr_quit</sprite>
     <sprite>sprites\spr_A_button</sprite>
     <sprite>sprites\spr_B_button</sprite>
     <sprite>sprites\spr_GM48</sprite>
-    <sprite>sprites\spr_goal</sprite>
-    <sprite>sprites\spr_ball</sprite>
-    <sprite>sprites\spr_electric_fence</sprite>
-    <sprite>sprites\spr_color_tile</sprite>
+    <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_test2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -117,9 +126,12 @@
     <script>scripts\scr_endpoint_anim.gml</script>
     <script>scripts\scr_blackhole_pull.gml</script>
     <script>scripts\scr_blackhole_consumes.gml</script>
+    <script>scripts\scr_rotate_around.gml</script>
+    <script>scripts\scr_color_array.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_visitor_50</font>
+    <font>fonts\font1</font>
   </fonts>
   <objects name="objects">
     <objects name="Characters">
@@ -192,25 +204,41 @@
       <object>objects\obj_music_control</object>
       <object>objects\obj_char_controls</object>
       <object>objects\obj_control</object>
+      <object>objects\cnt_array_init</object>
     </objects>
-    <object>objects\obj_DynamicParent</object>
+    <objects name="Placeholders">
+      <object>objects\obj_laser_purple</object>
+      <object>objects\obj_laser_yellow</object>
+      <object>objects\obj_laser_wheel</object>
+      <object>objects\obj_laser_orange</object>
+      <object>objects\obj_laser_blue</object>
+      <object>objects\obj_laser_fence</object>
+      <object>objects\obj_pickup</object>
+      <object>objects\obj_willy_ph</object>
+      <object>objects\obj_jerry_ph</object>
+      <object>objects\obj_doug_ph</object>
+      <object>objects\obj_zoey_ph</object>
+      <object>objects\obj_blue_circle</object>
+      <object>objects\obj_red_circle</object>
+      <object>objects\obj_block</object>
+      <object>objects\obj_block2</object>
+      <object>objects\obj_area</object>
+      <object>objects\obj_laser</object>
+    </objects>
     <object>objects\obj_thrusters_emitter</object>
+    <object>objects\obj_DynamicParent</object>
     <object>objects\obj_tutorial</object>
     <object>objects\obj_screen_shake</object>
-    <object>objects\obj_goal</object>
-    <object>objects\obj_ball</object>
-    <object>objects\obj_electric_fence</object>
     <object>objects\obj_cheat</object>
-    <object>objects\obj_color_tile</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\rm_char_control</room>
     <room>rooms\rm_tutorial</room>
-    <room>rooms\rm_FloatBall</room>
-    <room>rooms\rm_FloatBall_fence</room>
+    <room>rooms\rm_wheel_of_deadly_lasers</room>
+    <room>rooms\rm_area_claim</room>
+    <room>rooms\rm_a_mazed</room>
     <room>rooms\rm_BattleField</room>
-    <room>rooms\rm_Color_Symphony</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
