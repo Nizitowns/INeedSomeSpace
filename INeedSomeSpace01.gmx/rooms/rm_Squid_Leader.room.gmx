@@ -3,8 +3,8 @@
   <caption></caption>
   <width>960</width>
   <height>540</height>
-  <vsnap>4</vsnap>
-  <hsnap>4</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -16,19 +16,19 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1571</w>
-    <h>878</h>
+    <w>1008</w>
+    <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
     <showBackgrounds>-1</showBackgrounds>
     <showForegrounds>-1</showForegrounds>
     <showViews>0</showViews>
-    <deleteUnderlyingObj>0</deleteUnderlyingObj>
+    <deleteUnderlyingObj>-1</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>4</page>
-    <xoffset>-77</xoffset>
-    <yoffset>-135</yoffset>
+    <page>1</page>
+    <xoffset>-46</xoffset>
+    <yoffset>-86</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -51,29 +51,15 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_control" x="0" y="0" name="inst_7EEBC468" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_countdown_clock" x="32" y="0" name="inst_1D68E213" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Willy_Idle" x="312" y="328" name="inst_58827260" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Doug_Idle" x="640" y="200" name="inst_3B6C1DC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Jerry_Idle" x="640" y="328" name="inst_0E5D676A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Zoe_Idle" x="312" y="192" name="inst_8AAE6A92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_goal" x="128" y="144" name="inst_A64E10C7" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_goal" x="816" y="144" name="inst_CB3E4F1E" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ball" x="480" y="256" name="inst_287CA5F2" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="96" y="48" name="inst_8594F01A" locked="0" code="" scaleX="96" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="96" y="480" name="inst_6A72A7EB" locked="0" code="" scaleX="96" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="40" y="64" name="inst_9C4C5FD6" locked="0" code="" scaleX="1" scaleY="51" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="912" y="64" name="inst_21E7BB17" locked="0" code="" scaleX="1" scaleY="51" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="48" y="64" name="inst_0A8E8FCB" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="15"/>
-    <instance objName="obj_electric_fence" x="48" y="464" name="inst_FBA78EB1" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="-15"/>
-    <instance objName="obj_electric_fence" x="856" y="48" name="inst_73B60407" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="-15"/>
-    <instance objName="obj_electric_fence" x="856" y="480" name="inst_9B74E7F9" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="15"/>
-    <instance objName="obj_electric_fence" x="128" y="136" name="inst_C83AEC31" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="120" y="136" name="inst_F866CA75" locked="0" code="" scaleX="1" scaleY="34" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="128" y="400" name="inst_EA33DAC0" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="800" y="136" name="inst_23DB98E0" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="832" y="136" name="inst_E9EF2F3E" locked="0" code="" scaleX="1" scaleY="34" colour="4294967295" rotation="0"/>
-    <instance objName="obj_electric_fence" x="800" y="400" name="inst_6485E32E" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Asteroid_4" x="224" y="192" name="inst_1071A772" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Asteroid_4" x="32" y="736" name="inst_A97E17BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_control" x="4" y="-33" name="inst_7EEBC468" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_countdown_clock" x="33" y="-33" name="inst_1D68E213" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Willy_Idle" x="64" y="448" name="inst_58827260" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Doug_Idle" x="896" y="96" name="inst_3B6C1DC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Jerry_Idle" x="896" y="448" name="inst_0E5D676A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Zoe_Idle" x="64" y="96" name="inst_8AAE6A92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_squid_follower" x="256" y="256" name="inst_5E23FE18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
