@@ -2,7 +2,7 @@
 randomize();
 player = argument0;
 spd = 4;
-var dir     = point_direction(x,y,player.x + choose(-40, +40), player.y+ choose(-40, +40));
+var dir     = point_direction(x,y,player.x + choose(-40, +40), player.y + choose(-40, +40));
 var hspd    = lengthdir_x(spd, dir);
 var vspd    = lengthdir_y(spd, dir);
 

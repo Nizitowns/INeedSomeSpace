@@ -217,7 +217,7 @@
     <room>rooms\rm_FloatBall_fence</room>
     <room>rooms\rm_BattleField</room>
     <room>rooms\rm_Color_Symphony</room>
-    <room>rooms\room7</room>
+    <room>rooms\rm_SquidLeader</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
