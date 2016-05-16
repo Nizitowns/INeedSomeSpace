@@ -99,6 +99,8 @@
     <sprite>sprites\spr_ball</sprite>
     <sprite>sprites\spr_electric_fence</sprite>
     <sprite>sprites\spr_color_tile</sprite>
+    <sprite>sprites\spr_quid_folower</sprite>
+    <sprite>sprites\spr_meteor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -117,6 +119,8 @@
     <script>scripts\scr_endpoint_anim.gml</script>
     <script>scripts\scr_blackhole_pull.gml</script>
     <script>scripts\scr_blackhole_consumes.gml</script>
+    <script>scripts\scr_squid_follow.gml</script>
+    <script>scripts\scr_squid_wander.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_visitor_50</font>
@@ -202,6 +206,8 @@
     <object>objects\obj_electric_fence</object>
     <object>objects\obj_cheat</object>
     <object>objects\obj_color_tile</object>
+    <object>objects\obj_squid_follower</object>
+    <object>objects\obj_meteor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -211,6 +217,7 @@
     <room>rooms\rm_FloatBall_fence</room>
     <room>rooms\rm_BattleField</room>
     <room>rooms\rm_Color_Symphony</room>
+    <room>rooms\room7</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
