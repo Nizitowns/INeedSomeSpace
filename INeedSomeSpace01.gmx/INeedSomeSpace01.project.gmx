@@ -99,7 +99,6 @@
     <sprite>sprites\spr_ball</sprite>
     <sprite>sprites\spr_electric_fence</sprite>
     <sprite>sprites\spr_color_tile</sprite>
-    <sprite>sprites\spr_squid_folowers</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -203,7 +202,6 @@
     <object>objects\obj_electric_fence</object>
     <object>objects\obj_cheat</object>
     <object>objects\obj_color_tile</object>
-    <object>objects\obj_squid_follower</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -213,7 +211,6 @@
     <room>rooms\rm_FloatBall_fence</room>
     <room>rooms\rm_BattleField</room>
     <room>rooms\rm_Color_Symphony</room>
-    <room>rooms\rm_Squid_Leader</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
