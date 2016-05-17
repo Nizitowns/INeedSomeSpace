@@ -98,6 +98,7 @@
     <sprite>sprites\spr_goal</sprite>
     <sprite>sprites\spr_ball</sprite>
     <sprite>sprites\spr_electric_fence</sprite>
+    <sprite>sprites\spr_lava</sprite>
     <sprite>sprites\spr_color_tile</sprite>
     <sprite>sprites\spr_quid_folower</sprite>
     <sprite>sprites\spr_meteor</sprite>
@@ -208,6 +209,7 @@
     <object>objects\obj_color_tile</object>
     <object>objects\obj_squid_follower</object>
     <object>objects\obj_meteor</object>
+    <object>objects\obj_lava</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -218,6 +220,7 @@
     <room>rooms\rm_BattleField</room>
     <room>rooms\rm_Color_Symphony</room>
     <room>rooms\rm_SquidLeader</room>
+    <room>rooms\rm_LavaFry</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
