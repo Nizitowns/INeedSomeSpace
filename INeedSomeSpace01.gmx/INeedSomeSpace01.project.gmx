@@ -221,6 +221,7 @@
     <room>rooms\rm_Color_Symphony</room>
     <room>rooms\rm_SquidLeader</room>
     <room>rooms\rm_LavaFry</room>
+    <room>rooms\rm_LavaFry_NoBlack</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

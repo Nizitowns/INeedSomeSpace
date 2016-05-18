@@ -16,9 +16,9 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1936</w>
-    <h>1066</h>
-    <showGrid>0</showGrid>
+    <w>1283</w>
+    <h>897</h>
+    <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
     <showBackgrounds>-1</showBackgrounds>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-282</xoffset>
-    <yoffset>-144</yoffset>
+    <xoffset>3</xoffset>
+    <yoffset>-169</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -57,16 +57,19 @@
     <instance objName="obj_Doug_Idle" x="720" y="176" name="inst_3B6C1DC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Jerry_Idle" x="720" y="384" name="inst_0E5D676A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Zoe_Idle" x="224" y="160" name="inst_8AAE6A92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_black_hole" x="480" y="270" name="inst_942686B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lava" x="0" y="0" name="inst_D17B4A3B" locked="0" code="" scaleX="8" scaleY="68" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lava" x="64" y="480" name="inst_7CE8CABB" locked="0" code="" scaleX="104" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lava" x="896" y="0" name="inst_56F0AD25" locked="0" code="" scaleX="8" scaleY="68" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lava" x="64" y="0" name="inst_7CA3DEB0" locked="0" code="" scaleX="104" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lava" x="0" y="0" name="inst_D17B4A3B" locked="0" code="" scaleX="10" scaleY="68" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lava" x="80" y="464" name="inst_7CE8CABB" locked="0" code="" scaleX="100" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lava" x="880" y="0" name="inst_56F0AD25" locked="0" code="" scaleX="10" scaleY="68" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lava" x="80" y="0" name="inst_7CA3DEB0" locked="0" code="" scaleX="100" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_Willy_Idle" x="224" y="368" name="inst_ACB7F05F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner_1" x="208" y="368" name="inst_B3DD5EDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner_2" x="720" y="176" name="inst_74E4E14B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner_3" x="720" y="384" name="inst_F56730B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner_4" x="224" y="160" name="inst_0450F368" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lava" x="416" y="80" name="inst_855D6C3A" locked="0" code="" scaleX="12" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lava" x="416" y="368" name="inst_FE51B4F8" locked="0" code="" scaleX="12" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lava" x="80" y="224" name="inst_B2320467" locked="0" code="" scaleX="12" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lava" x="784" y="224" name="inst_ED3E605F" locked="0" code="" scaleX="12" scaleY="12" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
