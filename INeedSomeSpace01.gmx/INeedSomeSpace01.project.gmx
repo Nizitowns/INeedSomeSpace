@@ -102,6 +102,8 @@
     <sprite>sprites\spr_color_tile</sprite>
     <sprite>sprites\spr_quid_folower</sprite>
     <sprite>sprites\spr_meteor</sprite>
+    <sprite>sprites\spr_disappearing</sprite>
+    <sprite>sprites\spr_hot_potato</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -210,6 +212,8 @@
     <object>objects\obj_squid_follower</object>
     <object>objects\obj_meteor</object>
     <object>objects\obj_lava</object>
+    <object>objects\obj_disappearing</object>
+    <object>objects\obj_hot_potato</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -222,6 +226,7 @@
     <room>rooms\rm_SquidLeader</room>
     <room>rooms\rm_LavaFry</room>
     <room>rooms\rm_LavaFry_NoBlack</room>
+    <room>rooms\rm_HotPotato</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
